@@ -1,0 +1,114 @@
+body{
+    background-color:  #C8A2C8;
+    margin: 0;
+    text-align: center;
+    padding-top: 70px; 
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: grey;
+    margin: 0;
+    border: 2px solid #bbc2d0;
+    border-left: 4px solid #bbc2d0;
+    border-right: 4px solid #bbc2d0; 
+    border-radius: 5px; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #d8b9ff; 
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+nav img {
+    height: 90%; /* Increase the height of the logo to fill more of the nav bar */
+    margin-right: 20px; /* Space between logo and navigation links */
+}
+
+.container{
+    background: #e1c4ff;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 40px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banner{
+    height: 600px;
+    max-width: 900px;
+    background: url("iuLL.webp");
+    background-position: center; 
+    background-size: cover;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+
+.info {
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 40px;
+    margin: 20px auto; 
+    border: 2px solid #ccc; 
+}
+
+.know {
+    background:	#FFFFFF;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 40px;
+    margin: 20px auto; 
+    border: 2px solid #ccc; 
+}
+
+#h1 {
+    font-family: sans-serif;
+}
+
+.mov{
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    border: 2px solid #ccc; 
+}
+.mot {
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
